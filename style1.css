@@ -1,0 +1,127 @@
+body{
+  font-family: roboto;
+  background-color: rgb(72, 72, 72);
+}
+
+*{
+  margin: 5px;
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+}
+
+.first,.second,.fifth,.sixth,.eight{
+   display: flex;
+   width: 100%;
+}
+
+.first{
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+}
+
+.second{
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.second-one{
+  padding: 5px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: orange;
+  color: aliceblue;
+}
+
+.second-two{
+  padding: 5px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color:rgb(10, 157, 206);
+  color: aliceblue;
+}
+
+.third{
+    background-color: crimson;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.third-flex{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.third-one{
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+}
+
+.third-two{
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+}
+
+.fourth{
+  background-color:rgb(10, 157, 206);
+  color: aliceblue;
+  padding: 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.fifth{
+  background-color: orange;
+  color: aliceblue;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.fifth-one{
+  background-color: crimson;
+  margin: 0%;
+}
+
+.sixth{
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(0, 165, 220);
+  color: rgb(255, 255, 255);
+}
+
+.seventh{
+   text-align: center;
+   background-color: orange;
+   color: aliceblue;
+}
+
+.eight-one{
+  background-color: rgb(0, 180, 240);
+  color: aliceblue;
+}
+
+.eight-two{
+  background-color: crimson;
+  color: aliceblue;
+}
